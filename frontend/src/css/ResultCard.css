@@ -1,0 +1,26 @@
+.result-card {
+  background-color: white;
+  border: 1px solid LightGray;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 10px;
+  height: 100%;
+}
+
+.result-card img {
+  max-width: 100%;
+  height: auto;
+  border-bottom: 1px solid LightGray;
+}
+
+.result-card h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.result-card p {
+  font-size: 14px;
+  color: DarkGray;
+}

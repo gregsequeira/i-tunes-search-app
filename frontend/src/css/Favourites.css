@@ -1,0 +1,47 @@
+.favourites {
+  margin-top: 40px;
+}
+
+.favourites h2 {
+  color: Darkgreen;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.favourite-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid LightGray;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.favourite-item img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.favourite-item h4 {
+  flex: 1;
+  font-size: 14px;
+}
+
+.favourite-item button {
+  background-color: LightCoral;
+  border-color: LightCoral;
+}
+
+.favourite-item button:hover {
+  background-color: FireBrick;
+}
+
+.favourites p {
+  color: White;
+  text-align: center;
+  font-size: 18px;
+}

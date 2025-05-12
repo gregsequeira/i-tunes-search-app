@@ -1,0 +1,26 @@
+.modal-header {
+  background-color: DodgerBlue;
+  color: white;
+  border-bottom: 1px solid DarkGray;
+}
+
+.modal-body {
+  font-size: 16px;
+  padding: 20px;
+}
+
+.modal-footer {
+  border-top: 1px solid DarkGray;
+  display: flex;
+  justify-content: center;
+}
+
+.modal-footer .btn-primary {
+  background-color: DodgerBlue;
+  border-color: DodgerBlue;
+}
+
+.modal-footer .btn-primary:hover {
+  background-color: SteelBlue;
+  border-color: SteelBlue;
+}

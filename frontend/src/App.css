@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, Darkslategray, LightGray);
+  margin: 0;
+  padding: 0;
+  color: DimGray;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: DodgerBlue;
+}
+
+.app {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+button {
+  background-color: DodgerBlue;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+button:hover {
+  background-color: SteelBlue;
+}
